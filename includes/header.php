@@ -1,3 +1,4 @@
+<?php include_once 'includes/session.php' ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,6 +24,10 @@
         <li class="nav-item">
           <a class="nav-link" href="viewrecords.php">View Attendeees</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="login.php">Login</a>
+        </li>
+
       </ul>
     </div>
   </div>
